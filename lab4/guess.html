@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Jogo da Advinhacao</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1> Jogo da Advinhacao</h1>
+            <p>Digite um numero de 0 a 99 para tentar advinhar o numero</p>
+
+            <form id="guessForm">
+                <label for="guessInput"> Seu palpite</label>
+                <input type="number" id="guessInput" min="0" max="99" required>
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p id="result"></p>
+        </div>
+
+        <script src="guess.html"></script>
+    </body>
+</html>
